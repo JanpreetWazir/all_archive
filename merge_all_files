@@ -1,0 +1,7 @@
+mkdir -p merged
+
+# Define all known tool suffixes
+for suffix in katana_df.txt katana_passive.txt katana_bf.txt cariddi.txt crawley.txt gospider.txt uniq_subs.txt possible_leaked_data.txt; do
+    echo "[+] Merging: $suffix"
+    find . -type f -name "*$suffix" -exec cat {} + > "merged/all_${suffix}"
+done
