@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # File containing subdomains (one per line)
-SUBDOMAINS_FILE="/home/janpreet/Desktop/project/zerodha/subdomains.txt"
+SUBDOMAINS_FILE="/path/to/your/subdomains.txt"
 
 # Check if subdomains file exists
 if [ ! -f "$SUBDOMAINS_FILE" ]; then
