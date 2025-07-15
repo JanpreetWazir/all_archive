@@ -11,7 +11,7 @@ An extended version of the original **Back-Me-Up** tool that **automates link co
 - ⚙️ **Simple Configuration**: Just modify the path to the subdomain file in `script1.sh`:
 
 ```bash
-SUBDOMAINS_FILE="/home/janpreet/Desktop/project/zerodha/subdomains.txt"
+SUBDOMAINS_FILE="/path/to/your/subdomains.txt"
 ```
 
 - ▶️ **One-Command Execution**: After setting permissions, simply run the script:
@@ -78,7 +78,7 @@ bash backmeup.sh --check
 
 1. **Add subdomains to your file:**
    ```
-   /home/janpreet/Desktop/project/zerodha/subdomains.txt
+   /path/to/your/subdomains.txt
    ```
 
 2. **Make the script executable:**
