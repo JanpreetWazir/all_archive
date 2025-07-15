@@ -1,4 +1,4 @@
-# 🔐 Multi-Subdomain BackMeUp
+# 🔐 All Urls
 
 An extended version of the original **Back-Me-Up** tool that **automates link collection and sensitive data detection** from multiple subdomains at once — boosting productivity for **bug bounty hunters** and **security researchers**.
 
